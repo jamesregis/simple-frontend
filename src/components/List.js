@@ -4,7 +4,7 @@ const List = (props) => {
   if (!articles || articles.length === 0) return <p>No articles, sorry</p>;
   return (
     <ul>
-      <h2 className='list-head'>My articles (fetched from API)</h2>
+      <h2 className='list-head'>Mes articles (en francais) (fetched from API)</h2>
       {articles.map((article) => {
         return (
           <li key={article.Id} className='list'>
