@@ -23,7 +23,7 @@ function App() {
   return (
     <div className='App'>
       <div className='container'>
-        <h1>My Articles</h1>
+        <h1>Mes articles ((en francais)</h1>
       </div>
       <div className='repo-container'>
         <ListLoading isLoading={appState.loading} articles={appState.articles} />
