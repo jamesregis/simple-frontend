@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = `http://backend-service/articles`;
+    const apiUrl = `http://simple-backend-git-demo-001.mycluster-dev02-bcaa1e383432c6676be4ff83548eead1-0000.us-south.containers.appdomain.cloud/articles`;
     axios.get(apiUrl).then((articles) => {
       console.log(articles);
       const allArticles = articles.data;
