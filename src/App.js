@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = `http://localhost:10000/articles`;
+    const apiUrl = `http://backend-server/articles`;
     axios.get(apiUrl).then((articles) => {
       console.log(articles);
       const allArticles = articles.data;
